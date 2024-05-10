@@ -1,0 +1,21 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@libs/authentications/(.*)": "<rootDir>/../libs/authentications/src/$1",
+    "@libs/authentications": "<rootDir>/../libs/authentications/src",
+    "@libs/custom-types/(.*)": "<rootDir>/../libs/custom-types/src/$1",
+    "@libs/custom-types": "<rootDir>/../libs/custom-types/src",
+    "@libs/config/(.*)": "<rootDir>/../libs/config/src/$1",
+    "@libs/config": "<rootDir>/../libs/config/src"
+  }
+}
